@@ -1,0 +1,9 @@
+
+flask
+transformers
+torch
+easyocr
+sentence-transformers
+langdetect
+pillow
+opencv-python-headless

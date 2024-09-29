@@ -73,23 +73,22 @@ For each search query, the application returns:
 ## Usage:
 # To start the Flask server, run:
 python app.py
-# Access the application at http://127.0.0.1:5000.
+Access the application at http://127.0.0.1:5000.
 
 # To upload an image for OCR processing:
-# Replace 'your_image.jpg' with the actual image file.
+ Replace 'your_image.jpg' with the actual image file.
 curl -X POST -F "file=@your_image.jpg" http://127.0.0.1:5000/upload
 
 # To perform a semantic search:
-# Replace 'example search query' and 'text to search from' accordingly.
+ Replace 'example search query' and 'text to search from' accordingly.
 curl -X POST -H "Content-Type: application/json" \
 -d '{"query": "example search query", "text": "paragraph of text to search from"}' \
 http://127.0.0.1:5000/search
 
 ## File Structure:
-# - app.py: Main Flask application.
-# - ocr.py: OCR processing logic, including text extraction, language detection, and captioning.
-# - search.py: Semantic search functionality using sentence embeddings and cosine similarity.
-# - templates/index.html: HTML frontend template (if applicable).
+ - app.py: Main Flask application.
+ - ocr.py: OCR processing logic, including text extraction, language detection, and captioning.
+ - search.py: Semantic search functionality using sentence embeddings and cosine similarity.
+ - templates/index.html: HTML frontend template.
 
-## License:
-# MIT License.
+

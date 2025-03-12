@@ -11,7 +11,7 @@ This application implements two primary functionalities:
  Clone the repository and navigate into the project folder.
 
 
-git clone https://github.com/your-repo/ocr-search-app.git
+git clone https://github.com/atheek2003/OCR-and-Semantic-Search.git
 cd ocr-search-app
 
 # Set up a virtual environment and activate it.
